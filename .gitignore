@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets / local configuration
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+*.log
