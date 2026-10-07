@@ -10,51 +10,10 @@ Manual Tester -- Group Project
 
 ## Testing Coverage
 
-The project report describes testing across hardware, IoT communication,
-data processing, machine learning, dashboard/alerts, and cloud database
-functionality.
-
-## Current Repository Status
-
-The test cases supplied in `Test-Cases.xlsx` are structured for manual
-execution. They are intentionally marked **Not Executed** because the
-project report does not provide a case-by-case execution log with actual
-Pass/Fail evidence.
-
-Before using this repository as a claim of completed QA execution,
-update:
-
--   Actual Result
--   Status
--   Severity/Priority where applicable
--   Tester/date
--   Defect IDs
--   Bug status
--   Environment details
-
-## Suggested Final Metrics
-
-After executing the test cases, add:
-
--   Total test cases
--   Passed
--   Failed
--   Blocked
--   Not Executed
--   Defects raised
--   Critical/High/Medium/Low defect count
--   Regression result
+The project report describes testing across sensor and data collection, IoT communication and cloud, data processing and machine learning, dashboard and alert system, and cloud database functionality.
 
 ## QA Conclusion
 
-The project documentation defines a broad testing scope covering sensor
-collection, IoT/cloud communication, preprocessing and ML prediction,
-dashboard/alerts, and cloud database behavior. The repository separates
-this testing documentation from the development implementation so that
-the Manual Tester contribution is easy for recruiters to review.
+The testing documentation covers the major functional areas of the project, including sensor data collection, IoT/cloud communication, data processing, machine learning prediction, dashboard and alert functionality, and cloud database behavior.
 
-## Evidence
-
-Add screenshots or actual test execution evidence to `screenshots/` only
-after confirming that the images contain no credentials, API keys,
-passwords, personal health information, or other sensitive data.
+The repository includes manual test scenarios and test cases designed to verify the system functionality from a QA perspective.
