@@ -56,5 +56,3 @@ or
 ```bash
 python live_dashboard.py
 ```
-
-These files are included as **team project reference code**; the repository does not claim that the Manual Tester personally authored the implementation.
