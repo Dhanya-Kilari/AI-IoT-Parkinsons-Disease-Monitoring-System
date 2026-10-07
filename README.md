@@ -91,7 +91,7 @@ The public versions of the Python files have had hardcoded ThingSpeak credential
 -   [Project Overview](docs/Project-Overview.md)
 -   [System Testing Overview](testing/Test-Plan.md)
 -   [Test Scenarios](testing/Test-Scenarios.md)
--   [Test Cases](testing/Test-Cases.xlsx)
+-   [Test Cases](testing/Test_Cases.xlsx)
 -   [Bug Report Template](testing/Bug-Report.xlsx)
 -   [Test Summary](testing/Test-Summary.md)
 
