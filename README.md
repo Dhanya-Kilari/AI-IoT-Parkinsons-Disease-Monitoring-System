@@ -67,11 +67,6 @@ My testing responsibilities included:
 -   Recording test results and documenting defects when identified.
 -   Performing regression verification after fixes.
 
-> Note: The testing documentation in this repository is organized from
-> the project's system-testing requirements. Actual execution status
-> should be updated with the team's real test results before
-> publication.
-
 ## Testing Areas
 
 The project report identifies these testing areas:
@@ -136,9 +131,6 @@ The project report contains:
 -   Use Case Diagram
 -   Class Diagram
 -   Deployment Diagram
-
-These diagrams can be added to `docs/` after exporting the relevant
-figures from the final project report.
 
 ## Technologies Mentioned in the Project
 
