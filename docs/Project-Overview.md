@@ -50,11 +50,10 @@ The report mentions:
 -   Blynk / ThingSpeak
 -   MySQL / Cloud Storage
 -   HTML / CSS / JavaScript
--   Flask / Django (listed under backend framework)
+-   Flask / Django 
 -   Scikit-learn, TensorFlow, Pandas, NumPy
 -   Google Chrome
 -   Arduino Serial Monitor
--   Streamlit dashboard in the implementation/deployment description
 
 ## 6. Testing Perspective
 
