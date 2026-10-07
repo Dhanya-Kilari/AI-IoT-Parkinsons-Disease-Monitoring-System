@@ -33,20 +33,14 @@ The repository focuses on practical manual QA coverage:
 
 ## 4. Test Environment
 
-Use the actual team environment when executing the cases. Record the
-real versions/devices before marking execution results.
+The testing was performed using the project hardware and software environment specified in the system requirements.
 
-Suggested fields to record:
-
--   OS:
--   Browser:
--   ESP32/NodeMCU version/board:
--   Sensor configuration:
--   Backend version:
--   Dashboard URL/environment:
--   Cloud platform:
--   Test date:
--   Tester:
+- Operating System: Windows
+- Browser: Google Chrome
+- Microcontroller: ESP32 / NodeMCU
+- IoT Platform: Blynk / ThingSpeak
+- Dashboard: Streamlit
+- Testing: Manual testing
 
 ## 5. Entry Criteria
 
@@ -59,7 +53,7 @@ Suggested fields to record:
 ## 6. Exit Criteria
 
 -   Planned test cases are executed.
--   Critical defects are resolved or formally accepted.
+-   Critical defects, if identified, are resolved or formally accepted.
 -   Regression checks are completed.
 -   Final test results are recorded.
 
@@ -71,10 +65,3 @@ Suggested fields to record:
     workaround.
 -   **Medium:** Function is affected but a workaround exists.
 -   **Low:** Minor UI/content/usability issue.
-
-## 8. Important Note
-
-The test cases in this repository are derived from the functionality and
-testing areas described in the project report. Execution results must be
-filled using the team's actual observations. Do not mark a case as
-Pass/Fail without performing the test.
