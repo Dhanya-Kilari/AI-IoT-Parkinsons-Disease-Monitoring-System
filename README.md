@@ -92,7 +92,7 @@ The public versions of the Python files have had hardcoded ThingSpeak credential
 -   [System Testing Overview](testing/Test-Plan.md)
 -   [Test Scenarios](testing/Test-Scenarios.md)
 -   [Test Cases](testing/Test_Cases.xlsx)
--   [Bug Report Template](testing/Bug-Report.xlsx)
+-   [Bug Report Template](testing/Bug_Report.xlsx)
 -   [Test Summary](testing/Test-Summary.md)
 
 ## UML / System Design Diagrams
