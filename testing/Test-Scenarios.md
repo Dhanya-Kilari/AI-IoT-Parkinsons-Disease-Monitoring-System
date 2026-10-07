@@ -1,85 +1,26 @@
-# Test Scenarios
+## Test Scenarios
 
-  -------------------------------------------------------------------------
-  Scenario ID             Module                  Test Scenario
-  ----------------------- ----------------------- -------------------------
-  TS-001                  Sensor                  Verify that the sensor
-                                                  collects patient-related
-                                                  readings.
-
-  TS-002                  Sensor                  Verify continuous sensor
-                                                  data collection.
-
-  TS-003                  Controller              Verify that ESP32/NodeMCU
-                                                  receives sensor readings.
-
-  TS-004                  Controller              Verify that sensor data
-                                                  is not lost during normal
-                                                  operation.
-
-  TS-005                  IoT                     Verify Wi-Fi/IoT
-                                                  connection between
-                                                  controller and
-                                                  server/cloud.
-
-  TS-006                  IoT                     Verify transmission of
-                                                  processed sensor data.
-
-  TS-007                  Cloud                   Verify that transmitted
-                                                  data is stored correctly.
-
-  TS-008                  Cloud                   Verify retrieval of
-                                                  stored monitoring data.
-
-  TS-009                  Processing              Verify noise
-                                                  filtering/preprocessing
-                                                  flow.
-
-  TS-010                  Processing              Verify
-                                                  normalization/feature
-                                                  preparation flow.
-
-  TS-011                  ML                      Verify prediction request
-                                                  with valid processed
-                                                  data.
-
-  TS-012                  ML                      Verify system behavior
-                                                  for invalid/incomplete
-                                                  input.
-
-  TS-013                  Dashboard               Verify sensor readings
-                                                  are displayed correctly.
-
-  TS-014                  Dashboard               Verify prediction results
-                                                  are displayed.
-
-  TS-015                  Dashboard               Verify monitoring
-                                                  history/report
-                                                  information is displayed.
-
-  TS-016                  Alert                   Verify buzzer activation
-                                                  for abnormal conditions.
-
-  TS-017                  Alert                   Verify LCD warning
-                                                  display for abnormal
-                                                  conditions.
-
-  TS-018                  Alert                   Verify notification flow
-                                                  for abnormal conditions.
-
-  TS-019                  Integration             Verify sensor →
-                                                  controller → server/cloud
-                                                  → dashboard flow.
-
-  TS-020                  Regression              Re-test affected
-                                                  functionality after a
-                                                  defect fix.
-
-  TS-021                  Cloud Database          Verify no unintended data
-                                                  loss/corruption during
-                                                  storage.
-
-  TS-022                  Cloud Database          Verify authorized users
-                                                  can retrieve monitoring
-                                                  information.
-  -------------------------------------------------------------------------
+| Scenario ID | Module | Test Scenario |
+|---|---|---|
+| TS-001 | Sensor Data Collection | Verify that the sensors collect patient health data correctly. |
+| TS-002 | Sensor Data Collection | Verify continuous collection of sensor data. |
+| TS-003 | Sensor Data Collection | Verify that heartbeat, tremor and movement-related data are captured. |
+| TS-004 | Controller | Verify that ESP32/NodeMCU receives sensor data correctly. |
+| TS-005 | Controller | Verify that the controller processes the received sensor data correctly. |
+| TS-006 | IoT Communication | Verify Wi-Fi communication between ESP32/NodeMCU and the server/cloud platform. |
+| TS-007 | IoT Communication | Verify that processed sensor data is transmitted successfully. |
+| TS-008 | Cloud | Verify that sensor data is stored correctly in the cloud platform. |
+| TS-009 | Cloud | Verify retrieval of stored patient monitoring data. |
+| TS-010 | Data Processing | Verify that raw sensor data is processed and prepared for analysis. |
+| TS-011 | Data Processing | Verify noise filtering and normalization of sensor data. |
+| TS-012 | Machine Learning | Verify that processed data is passed to the machine learning model. |
+| TS-013 | Machine Learning | Verify that the XGBoost model generates prediction results. |
+| TS-014 | Machine Learning | Verify prediction results for valid patient data. |
+| TS-015 | Dashboard | Verify that patient health data is displayed correctly on the dashboard. |
+| TS-016 | Dashboard | Verify that prediction results are displayed correctly. |
+| TS-017 | Dashboard | Verify that monitoring history and graphical information are displayed correctly. |
+| TS-018 | Alert System | Verify that the buzzer and LCD alerts are activated for abnormal conditions. |
+| TS-019 | Alert System | Verify that alert notifications are generated when abnormal conditions are detected. |
+| TS-020 | Regression | Verify affected functionality after system changes. |
+| TS-021 | Cloud Database | Verify that stored data is not lost or corrupted. |
+| TS-022 | Cloud Database | Verify authorized users can retrieve monitoring information. |
