@@ -99,10 +99,10 @@ The public versions of the Python files have had hardcoded ThingSpeak credential
 
 The following diagrams are extracted from the final project report:
 
-- [System Design Architecture](docs/System-Design-Architecture.png)
-- [Sequence Diagram](docs/Sequence-Diagram.png)
-- [Use Case Diagram](docs/Use-Case-Diagram.png)
-- [Class Diagram](docs/Class-Diagram.png)
+- [System Design Architecture](docs/01_System_Design_Architecture.png)
+- [Sequence Diagram](docs/02_Sequence_Diagram.png)
+- [Use Case Diagram](docs/03_Use_Case_Diagram.png)
+- [Class Diagram](docs/04_Class_Diagram.png)
 - [Deployment Diagram](docs/Deployment-Diagram.png)
 
 ## Screenshots / Demo Evidence
