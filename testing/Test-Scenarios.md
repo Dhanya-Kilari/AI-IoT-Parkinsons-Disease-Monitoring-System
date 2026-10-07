@@ -23,4 +23,3 @@
 | TS-019 | Alert System | Verify that alert notifications are generated when abnormal conditions are detected. |
 | TS-020 | Regression | Verify affected functionality after system changes. |
 | TS-021 | Cloud Database | Verify that stored data is not lost or corrupted. |
-| TS-022 | Cloud Database | Verify authorized users can retrieve monitoring information. |
