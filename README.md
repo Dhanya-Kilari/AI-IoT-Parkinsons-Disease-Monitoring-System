@@ -31,9 +31,9 @@ monitoring.
 
 ## Main Components
 
--   Wearable/physiological sensors
--   ESP32 / NodeMCU microcontroller
--   Wi-Fi / IoT communication
+-   Wearable sensors
+-   ESP32 microcontroller
+-   Wi-Fi communication
 -   Python backend processing
 -   XGBoost machine-learning model
 -   Cloud data storage and monitoring
