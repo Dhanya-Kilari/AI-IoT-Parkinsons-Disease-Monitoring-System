@@ -10,8 +10,8 @@ Based Parkinson's Disease Prediction and Monitoring System.
 Testing covers the functional interaction between:
 
 -   Sensor/data collection
--   ESP32/NodeMCU controller
--   IoT/Wi-Fi communication
+-   ESP32 controller
+-   Wi-Fi communication
 -   Backend/data processing
 -   Machine-learning prediction flow
 -   Cloud storage
@@ -37,8 +37,8 @@ The testing was performed using the project hardware and software environment sp
 
 - Operating System: Windows
 - Browser: Google Chrome
-- Microcontroller: ESP32 / NodeMCU
-- IoT Platform: Blynk / ThingSpeak
+- Microcontroller: ESP32
+- IoT Platform: ThingSpeak
 - Dashboard: Streamlit
 - Testing: Manual testing
 
