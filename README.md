@@ -138,9 +138,9 @@ The project report contains:
 -   Machine Learning
 -   XGBoost
 -   IoT
--   ESP32 / NodeMCU
+-   ESP32 
 -   Arduino IDE
--   Blynk / ThingSpeak
+-   ThingSpeak
 -   Streamlit
 -   MySQL / Cloud Storage
 -   HTML / CSS / JavaScript
